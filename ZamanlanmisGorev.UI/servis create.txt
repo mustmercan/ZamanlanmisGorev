@@ -1,0 +1,8 @@
+C:\Users\mmercan\Documents\visual studio 2015\Projects\ServisDeneme1\ServisDeneme1\bin\Debug
+sc delete MyService 
+sc create ZamanlanmisGorev binPath= "C:\Users\mmercan\Documents\visual studio 2015\Projects\ZamanlanmisGorev\ZamanlanmisGorev.Servis\bin\Debug\ZamanlanmisGorev.Servis.exe Ayar.json"
+sc qc ZamanlanmisGorev
+sc config ZamanlanmisGorev binPath= "C:\Users\mmercan\Documents\visual studio 2015\Projects\ZamanlanmisGorev\ZamanlanmisGorev.Servis\bin\Debug\ZamanlanmisGorev.Servis.exe"
+installutil  yourproject.exe
+installutil  "C:\Users\mmercan\Documents\visual studio 2015\Projects\ZamanlanmisGorev\ZamanlanmisGorev.Servis\bin\Debug\ZamanlanmisGorev.Servis.exe"
+Xk5+9H*
